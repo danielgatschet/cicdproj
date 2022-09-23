@@ -11,3 +11,5 @@ jobs:
           java-version: '11'
       - name: Run Tests
         run: gradle clean test
+      - name: Interactive Tests
+        run: gradle clean run
